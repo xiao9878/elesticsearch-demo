@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    jest:
+#      proxy:
+##        host: http://47.105.140.2
+##        port: 9200
+#      uris: http://47.105.140.2:9200
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: http://47.105.140.2:9300
